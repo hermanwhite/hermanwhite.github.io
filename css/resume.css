@@ -25,8 +25,12 @@ h6 {
   color: #343a40; }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem; }
+  font-size: 4rem;
+  line-height: 3.5rem; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 6rem;
+      line-height: 5.5rem; } }
 
 h2 {
   font-size: 3.5rem; }
@@ -40,14 +44,14 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #BD5D38; }
+    color: #868e96; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #BD5D38; }
+    color: #868e96; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -85,6 +89,10 @@ h2 {
           #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
             display: block; } }
 
+.img-profile-mobile {
+  height: 180px;
+  width: 180px; }
+
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
@@ -104,12 +112,12 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #BD5D38 !important; }
+  background-color: #868e96 !important; }
 
 .text-primary {
-  color: #BD5D38 !important; }
+  color: #868e96 !important; }
 
 a {
-  color: #BD5D38; }
+  color: #868e96; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #60686f; }
